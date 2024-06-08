@@ -15,10 +15,3 @@ def get_all_file_paths(directory):
     
     return file_paths
 
-# 使用例
-directory = 'path/to/your/directory'  # 調べたいディレクトリのパス
-file_paths = get_all_file_paths(directory)
-
-# 取得したファイルパスを表示
-for path in file_paths:
-    print(path)
